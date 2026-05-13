@@ -6,7 +6,7 @@
 <title>BOS Center — D2C Admin Platform</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
@@ -19,7 +19,7 @@
   --yellow:#d97706;--yellow-l:#fffbeb;--purple:#7c3aed;--purple-l:#f5f3ff;
   --cyan:#0891b2;--cyan-l:#ecfeff;--pink:#db2777;--pink-l:#fdf2f8;
   --orange:#ea580c;--orange-l:#fff7ed;--teal:#0d9488;--teal-l:#f0fdfa;
-  --mono:'DM Mono',monospace;--sans:'DM Sans',sans-serif;--display:'Fraunces',serif;
+  --mono: 'JetBrains Mono', monospace;--sans: 'Inter', sans-serif;--display: 'Sora', sans-serif;
   --r:8px;--r2:12px;--r3:18px;
   --sh:0 1px 3px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.04);
   --sh2:0 8px 30px rgba(0,0,0,.10);
@@ -149,9 +149,9 @@ nav{flex:1;padding:6px 0;}
 .trend-up{background:var(--green-l);color:var(--green);}
 .trend-dn{background:var(--red-l);color:var(--red);}
 .trend-neu{background:var(--surface3);color:var(--text3);}
-.kpi-val{font-size:20px;font-weight:700;font-family:var(--mono);color:var(--text);margin-bottom:2px;letter-spacing:-.5px;}
-.kpi-lbl{font-size:11px;color:var(--text3);font-weight:500;}
-.kpi-sub{font-size:10px;color:var(--text3);margin-top:2px;}
+.kpi-val{font-size:22px;font-weight:700;font-family:'Inter',sans-serif;letter-spacing: -0.8px;font-feature-settings:"tnum";}
+.kpi-lbl{font-size:11.5px;font-weight:500;letter-spacing:0.1px;}
+.kpi-sub {font-size: 10.5px;font-weight: 400;letter-spacing: 0.1px;}
 
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r2);box-shadow:var(--sh);overflow:hidden;}
 .card-hd{padding:13px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;}
