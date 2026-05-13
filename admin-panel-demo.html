@@ -44,7 +44,7 @@ a{text-decoration:none;}
   box-shadow:2px 0 12px rgba(0,0,0,.04);
 }
 .sb-logo{padding:16px 14px 12px;border-bottom:1px solid #e8ecf4;display:flex;align-items:center;gap:10px;flex-shrink:0;}
-.sb-logo-mark{width:32px;height:32px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:17px;font-weight:700;color:#fff;flex-shrink:0;letter-spacing:-1px;}
+.sb-logo-mark{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:17px;font-weight:700;color:#fff;flex-shrink:0;letter-spacing:-1px;}
 .sb-logo-text{font-size:13.5px;font-weight:700;color:#0d1117;line-height:1.2;}
 .sb-logo-text small{display:block;font-size:9.5px;color:#94a3b8;font-weight:400;letter-spacing:.9px;text-transform:uppercase;margin-top:1px;}
 
@@ -109,7 +109,7 @@ nav{flex:1;padding:6px 0;}
 .notif-dot{position:absolute;top:-3px;right:-3px;background:var(--red);color:#fff;font-size:8.5px;font-weight:700;width:14px;height:14px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid var(--surface);}
 .tb-user{display:flex;align-items:center;gap:8px;padding:5px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);cursor:pointer;transition:all .15s;}
 .tb-user:hover{border-color:var(--border2);}
-.tb-uav{width:26px;height:26px;border-radius:6px;background:linear-gradient(135deg,var(--accent),var(--purple));display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;}
+.tb-uav{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;}
 .tb-uname{font-size:12px;font-weight:600;color:var(--text);}
 .tb-urole{font-size:10px;color:var(--text3);}
 
@@ -394,13 +394,14 @@ td strong{color:var(--text);font-weight:600;}
 <!-- SIDEBAR -->
 <aside class="sidebar">
   <div class="sb-logo">
-    <div class="sb-logo-mark">B</div>
+    <!-- <div class="sb-logo-mark">B</div> -->
+    <img class="sb-logo-mark" src="company-logo.png"></img>
     <div class="sb-logo-text">BOS Center<small>D2C E-Commerce</small></div>
   </div>
   <div class="sb-profile">
     <div class="sb-profile-row">
-      <div class="sb-av">BC</div>
-      <div><div class="sb-name">BOS CENTER</div><div class="sb-role">SUPER ADMIN</div></div>
+      <!-- <div class="sb-av">B</div> -->
+      <div><div class="sb-name">B.Gupta</div><div class="sb-role">ADMIN</div></div>
       <div class="sb-pulse"></div>
     </div>
     <div class="sb-stats">
@@ -480,8 +481,8 @@ td strong{color:var(--text);font-weight:600;}
       <div class="icon-btn" id="notifBtn"><i class="fas fa-bell"></i><span class="notif-dot" id="notifCount">9</span></div>
       <div class="icon-btn" title="Refresh" id="refreshBtn"><i class="fas fa-sync-alt" id="ri"></i></div>
       <div class="tb-user">
-        <div class="tb-uav">BC</div>
-        <div><div class="tb-uname">BOS Admin</div><div class="tb-urole">Super Admin</div></div>
+        <img  class="tb-uav" src="company-logo.png"></img>
+        <div><div class="tb-uname">BOS Admin</div><div class="tb-urole">Admin</div></div>
         <i class="fas fa-chevron-down" style="font-size:8px;color:var(--text3);margin-left:2px;"></i>
       </div>
     </div>
